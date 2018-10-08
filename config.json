@@ -1,4 +1,4 @@
-{
+
   "log": {
     "loglevel": "warning"
   },
@@ -8,8 +8,9 @@
     "settings": {
       "clients": [
         {
-          "id": "your_uuid",
-          "alterId": 64
+          "id": "756723e2-4d95-4f75-8987-e4a230db285b",
+          "alterId": 64,
+          "security": "aes-128-cfb"
         }
       ]
     },
@@ -17,8 +18,9 @@
       "network": "ws"
     }
   },
+  "inboundDetour": [],
   "outbound": {
     "protocol": "freedom",
-    "settings": {}
+   "settings": {}
   }
 }
